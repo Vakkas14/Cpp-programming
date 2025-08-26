@@ -132,3 +132,6 @@ Performance	Tunable (manual optimizations)	Auto-optimized (sometimes slower)
 5. Analogy
 •	Imperative = Cooking a recipe yourself (control every step).
 •	Declarative = Ordering food (you specify the dish, not how it’s made).
+
+
+
