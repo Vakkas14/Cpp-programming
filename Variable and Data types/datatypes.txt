@@ -1,0 +1,72 @@
+what is data types?
+    A data type tells the computer:
+    “What kind of data is this?” and “How much memory should be used?”
+    In simple words:
+        Data type = type of value a variable can store
+    over-all ---> Data types specify the type of data that a variable can store
+
+Why Data Types Are Important in DSA?
+    Because:
+    They decide memory usage
+    They prevent overflow errors
+    They affect performance
+    They define operations allowed on data
+    Example:
+    You cannot divide a string
+    You cannot store decimals in int
+
+Whenever a variable is defined in C++, the compiler allocates memory for that variable based on the data type with which it is declared.
+
+data types in C++           drived data types           user define data types        
+Basic data types            array                       class
+int                         pointer                     structure
+float                       reference                   union
+doubble                     function                    typedef
+char                                                    using
+bool 
+void
+
+Size of data types 
+| Data Type        | Typical Size (Bytes) | Range (Approximate)             |
+| ---------------- | -------------------- | ------------------------------- |
+| `bool`           | 1 byte               | true / false                    |
+| `char`           | 1 byte               | -128 to 127                     |
+| `unsigned char`  | 1 byte               | 0 to 255                        |
+| `short`          | 2 bytes              | -32,768 to 32,767               |
+| `unsigned short` | 2 bytes              | 0 to 65,535                     |
+| `int`            | 4 bytes              | -2,147,483,648 to 2,147,483,647 |
+| `unsigned int`   | 4 bytes              | 0 to 4,294,967,295              |
+| `long`           | 4 or 8 bytes         | Depends on system               |
+| `unsigned long`  | 4 or 8 bytes         | Depends on system               |
+| `long long`      | 8 bytes              | Very large integers             |
+| `float`          | 4 bytes              | ~6–7 decimal digits precision   |
+| `double`         | 8 bytes              | ~15 decimal digits precision    |
+| `long double`    | 8, 12, or 16 bytes   | Very high precision             |
+
+
+| Data Type   | Description        | Example   |
+| ----------- | ------------------ | --------- |
+| `int`       | Normal integer     | 10, -5    |
+| `short`     | Smaller integer    | 100       |
+| `long`      | Larger integer     | 100000    |
+| `long long` | Very large integer | 123456789 |
+
+| Data Type     | Description                     | Example      |
+| ------------- | ------------------------------- | ------------ |
+| `float`       | Decimal number (less precision) | 3.14         |
+| `double`      | Decimal number (more precision) | 3.141592     |
+| `long double` | Very high precision decimal     | 3.1415926535 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

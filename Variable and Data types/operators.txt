@@ -1,0 +1,69 @@
+Operators in C++
+Arithmetic → Math
+Relational → Compare
+Logical → Decision
+Assignment → Store
+Bitwise → Binary
+Other → Special
+
+Arithematic
+| Operator | Meaning             | Example |
+| -------- | ------------------- | ------- |
+| `+`      | Addition            | a + b   |
+| `-`      | Subtraction         | a - b   |
+| `*`      | Multiplication      | a * b   |
+| `/`      | Division            | a / b   |
+| `%`      | Modulus (remainder) | a % b   |
+| `++`     | Increment           | a++     |
+| `--`     | Decrement           | a--     |
+
+Relational (Comparison) Operators
+| Operator | Meaning               | Example |
+| -------- | --------------------- | ------- |
+| `==`     | Equal to              | a == b  |
+| `!=`     | Not equal to          | a != b  |
+| `>`      | Greater than          | a > b   |
+| `<`      | Less than             | a < b   |
+| `>=`     | Greater than or equal | a >= b  |
+| `<=`     | Less than or equal    | a <= b  |
+
+Logical Operators
+| Operator | Meaning     | Example |            |   |   |   |
+| -------- | ----------- | ------- | ---------- | - | - | - |
+| `&&`     | Logical AND | a && b  |            |   |   |   |
+| `        |             | `       | Logical OR | a |   | b |
+| `!`      | Logical NOT | !a      |            |   |   |   |
+
+Assignment Operators
+| Operator | Meaning             | Example |
+| -------- | ------------------- | ------- |
+| `=`      | Assign value        | a = 5   |
+| `+=`     | Add and assign      | a += 5  |
+| `-=`     | Subtract and assign | a -= 5  |
+| `*=`     | Multiply and assign | a *= 5  |
+| `/=`     | Divide and assign   | a /= 5  |
+| `%=`     | Modulus and assign  | a %= 5  |
+
+Bitwise Operators
+| Operator | Meaning     | Example    |   |   |
+| -------- | ----------- | ---------- | - | - |
+| `&`      | Bitwise AND | a & b      |   |   |
+| `        | `           | Bitwise OR | a | b |
+| `^`      | Bitwise XOR | a ^ b      |   |   |
+| `~`      | Bitwise NOT | ~a         |   |   |
+| `<<`     | Left shift  | a << 1     |   |   |
+| `>>`     | Right shift | a >> 1     |   |   |
+
+Other Important Operators
+| Operator | Meaning                        |
+| -------- | ------------------------------ |
+| `?:`     | Ternary (conditional) operator |
+| `sizeof` | Returns size of variable       |
+| `&`      | Address-of operator            |
+| `*`      | Pointer dereference            |
+| `->`     | Access member via pointer      |
+| `.`      | Access class/struct member     |
+| `::`     | Scope resolution               |
+| `new`    | Allocate memory                |
+| `delete` | Deallocate memory              |
+| `typeid` | Get type information           |
